@@ -1336,6 +1336,11 @@ section {
   opacity: 1;
 }
 
+.soc {
+  width: 60px;
+  padding-left: 100px;
+}
+
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
@@ -2115,4 +2120,13 @@ section {
 
 .dVYIqU {
   margin-bottom: 100px;
+}
+.bx {
+font-family: 'boxicons' !important;
+font-weight: normal;
+font-style: normal;
+font-variant: normal;
+line-height: 20;
+display: inline-block;
+text-transform: none;
 }
