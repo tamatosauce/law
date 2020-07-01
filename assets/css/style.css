@@ -45,13 +45,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #2487ce;
+  background: #C7A366;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #3e9bdd;
+  background: #2B2F38;
   color: #fff;
 }
 
@@ -1264,6 +1264,10 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+
+.teamicons {
+  width: 525px;
+}
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
