@@ -9,12 +9,14 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "century-gothic, sans-serif";
+  font-style: normal;
+  font-weight: 400; 
   color: #444444;
 }
 
 a {
-  color: #2487ce;
+  color: #C7A366;
 }
 
 a:hover {
@@ -23,13 +25,18 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "century-gothic", sans-serif;
 }
 
 p {
+  font-family: "century-gothic", sans-serif;
   font-size: 16px;
 }
 
+li {
+  font-family: "century-gothic", sans-serif;
+  font-size: 16px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -78,7 +85,7 @@ p {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #C7A366;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -138,7 +145,7 @@ p {
   line-height: 1;
   font-weight: 300;
   letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
+  font-family: "century-gothic", sans-serif;
 }
 
 #header .logo a {
@@ -180,8 +187,8 @@ p {
   position: relative;
   color: #124265;
   transition: 0.3s;
-  font-size: 20px;
-  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-family: "Alurra", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -216,14 +223,14 @@ p {
 
 .nav-menu .drop-down ul a {
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   text-transform: none;
   color: #124265;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #2487ce;
+  color: #C7A366;
 }
 
 .nav-menu .drop-down > a:after {
@@ -274,7 +281,7 @@ p {
   padding: 10px 30px 11px 30px;
   white-space: nowrap;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   display: inline-block;
 }
@@ -344,7 +351,7 @@ p {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #2487ce;
+  color: #C7A366;
   text-decoration: none;
 }
 
@@ -399,14 +406,24 @@ p {
   color: #fff;
 }
 
+#bannerservice {
+  width: 100%;
+  height: 42vh;
+  position: relative;
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("../img/services_background.png");
+  background-size: cover;
+  position: relative;
+  opacity: 1;
+}
+
 /*--------------------------------------------------------------
 # individual team Hero Section
 --------------------------------------------------------------*/
-#romeohero {
+#bannerhero {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   position: relative;
-  background: url("../img/romeo/romeo_banner.png") top center;
+  background: url("../img/banner_team.jpg");
   background-size: cover;
   position: relative;
 }
@@ -443,7 +460,7 @@ p {
   font-weight: 700;
   line-height: 72px;
   color: #124265;
-  font-family: "Poppins", sans-serif;
+  font-family: "century-gothic", sans-serif;
 }
 
 #hero h2 {
@@ -453,9 +470,9 @@ p {
 }
 
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: "century-gothic", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.5px;
   display: inline-block;
   padding: 14px 50px;
@@ -463,13 +480,13 @@ p {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #2487ce;
+  background: #C7A366;
 }
 
 .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: "century-gothic", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 0.5px;
   display: inline-block;
   padding: 14px 50px;
@@ -502,7 +519,7 @@ p {
 #hero .icon-box .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 #hero .icon-box .title a {
@@ -523,7 +540,7 @@ p {
   transition: all 0.3s ease-in-out;
   font-size: 36px;
   line-height: 1;
-  color: #2487ce;
+  color: #C7A366;
 }
 
 #hero .icon-box:hover {
@@ -531,7 +548,7 @@ p {
 }
 
 #hero .icon-box:hover .title a {
-  color: #2487ce;
+  color: #C7A366;
 }
 
 @media (min-width: 1024px) {
@@ -549,7 +566,7 @@ p {
     line-height: 36px;
   }
   #hero h2 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 24px;
   }
 }
@@ -584,7 +601,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #919191;
 }
 
@@ -615,7 +632,7 @@ section {
   left: 0;
   top: 2px;
   font-size: 20px;
-  color: #2487ce;
+  color: #C7A366;
   line-height: 1;
 }
 
@@ -624,24 +641,24 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: "century-gothic", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 32px;
   border-radius: 5px;
   transition: 0.3s;
   line-height: 1;
-  color: #2487ce;
+  color: #C7A366;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   margin-top: 6px;
-  border: 2px solid #2487ce;
+  border: 2px solid #C7A366;
 }
 
 .about .content .btn-learn-more:hover {
-  background: #2487ce;
+  background: #C7A366;
   color: #fff;
   text-decoration: none;
 }
@@ -670,9 +687,9 @@ section {
 
 .counts .count-box p {
   padding: 8px 0 0 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "century-gothic", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   color: #1e6ca6;
 }
 
@@ -702,7 +719,7 @@ section {
 
 .about-video .content ul i {
   font-size: 24px;
-  color: #2487ce;
+  color: #C7A366;
   position: absolute;
   left: 0;
   top: -2px;
@@ -715,7 +732,7 @@ section {
 .about-video .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#2487ce 50%, rgba(36, 135, 206, 0.4) 52%);
+  background: radial-gradient(#C7A366 50%, rgba(36, 135, 206, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -763,7 +780,7 @@ section {
 }
 
 .about-video .play-btn:hover::after {
-  border-left: 15px solid #2487ce;
+  border-left: 15px solid #C7A366;
   transform: scale(20);
 }
 
@@ -852,14 +869,14 @@ section {
 }
 
 .testimonials .testimonial-item h3 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #111;
 }
 
 .testimonials .testimonial-item h4 {
-  font-size: 14px;
+  font-size: 16px;
   color: #999;
   margin: 0;
 }
@@ -919,7 +936,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #2487ce !important;
+  background-color: #C7A366 !important;
 }
 
 @media (max-width: 767px) {
@@ -933,7 +950,7 @@ section {
 --------------------------------------------------------------*/
 .services-background {
   width: 100%;
-  background: url("../img/services_background.png") top center;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/services_background.png") top center;
   position: relative;
   background-size: cover;
   position: relative;
@@ -988,7 +1005,7 @@ section {
 
 .services .icon-box p {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 
@@ -1093,9 +1110,9 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "century-gothic", sans-serif;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 35px;
@@ -1108,7 +1125,7 @@ section {
 
 .cta .cta-btn:hover {
   background: #fff;
-  color: #2487ce;
+  color: #C7A366;
 }
 
 /*--------------------------------------------------------------
@@ -1131,7 +1148,7 @@ section {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
@@ -1141,7 +1158,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #2487ce;
+  color: #C7A366;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1220,7 +1237,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #ffffff;
-  font-size: 14px;
+  font-size: 16px;
   text-transform: uppercase;
   padding: 0;
   margin: 0;
@@ -1270,7 +1287,7 @@ section {
 --------------------------------------------------------------*/
 
 .teamicons {
-  width: 525px;
+  width: 75%;
 }
 .team .member {
   margin-bottom: 20px;
@@ -1307,35 +1324,36 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #2487ce;
+  color: #C7A366;
 }
 
 .team .member .social i {
-  font-size: 18px;
+  font-size: 16px;
   margin: 0 2px;
 }
 
 .team .member .member-info {
-  padding: 25px 15px;
+  /* border: #C7A366;
+  border-style: solid;
+  border-width: 1px; */
 }
 
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 16px;
   color: #124265;
 }
 
 .team .member .member-info span {
-  display: block;
-  font-size: 13px;
+  font-size: 40px;
   font-weight: 400;
-  color: #aaaaaa;
+  padding-right: 2%;
 }
 
 .team .member .member-info p {
   font-style: italic;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 26px;
   color: #777777;
 }
@@ -1365,7 +1383,7 @@ section {
 .pricing .box h3 {
   font-weight: 400;
   padding: 15px;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 600;
   color: #124265;
@@ -1373,9 +1391,9 @@ section {
 
 .pricing .box h4 {
   font-size: 42px;
-  color: #2487ce;
+  color: #C7A366;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Alurra", sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1397,7 +1415,7 @@ section {
   color: #124265;
   text-align: center;
   line-height: 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .pricing .box ul li {
@@ -1418,23 +1436,23 @@ section {
   display: inline-block;
   padding: 10px 40px;
   border-radius: 4px;
-  color: #2487ce;
+  color: #C7A366;
   transition: none;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "century-gothic", sans-serif;
   font-weight: 600;
   transition: 0.3s;
-  border: 2px solid #2487ce;
+  border: 2px solid #C7A366;
 }
 
 .pricing .box .btn-buy:hover {
-  background: #2487ce;
+  background: #C7A366;
   color: #fff;
 }
 
 .pricing .featured {
-  background: #2487ce;
+  background: #C7A366;
 }
 
 .pricing .featured h3, .pricing .featured h4, .pricing .featured h4 span, .pricing .featured ul, .pricing .featured ul .na {
@@ -1453,7 +1471,7 @@ section {
 
 .pricing .featured .btn-buy:hover {
   background: #fff;
-  color: #2487ce;
+  color: #C7A366;
 }
 
 /*--------------------------------------------------------------
@@ -1482,7 +1500,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "century-gothic", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1519,7 +1537,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #2487ce;
+  color: #C7A366;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1546,7 +1564,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #2487ce;
+  color: #C7A366;
   float: left;
   width: 44px;
   height: 44px;
@@ -1569,7 +1587,7 @@ section {
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   color: #217bbc;
 }
 
@@ -1578,7 +1596,7 @@ section {
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #2487ce;
+  background: #C7A366;
   color: #fff;
 }
 
@@ -1644,12 +1662,12 @@ section {
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 4px;
 }
 
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-  border-color: #2487ce;
+  border-color: #C7A366;
 }
 
 .contact .php-email-form input {
@@ -1661,7 +1679,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #2487ce;
+  background: #C7A366;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1718,7 +1736,7 @@ section {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .breadcrumbs ol li + li {
@@ -1775,7 +1793,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #2487ce !important;
+  background-color: #C7A366 !important;
 }
 
 .portfolio-details .portfolio-info {
@@ -1836,13 +1854,13 @@ section {
 --------------------------------------------------------------*/
 #footer {
   color: #444444;
-  font-size: 25px;
+  font-size: 20px;
   background: #f8fbfe;
   box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
+  padding: 20px 0 10px 0;
   background: #fff;
 }
 
@@ -1859,10 +1877,10 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "century-gothic", sans-serif;
   color: #fff;
 }
 
@@ -1886,8 +1904,8 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #2487ce;
-  font-size: 18px;
+  color: #C7A366;
+  font-size: 16px;
   line-height: 1;
 }
 
@@ -1910,7 +1928,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #2487ce;
+  color: #C7A366;
 }
 
 #footer .footer-newsletter {
@@ -1950,7 +1968,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #2487ce;
+  background: #C7A366;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 5px 5px 0;
@@ -1968,9 +1986,9 @@ section {
 }
 
 #footer .social-links a {
-  font-size: 18px;
+  font-size: 16px;
   display: inline-block;
-  background: #2487ce;
+  background: #C7A366;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2108,7 +2126,7 @@ section {
 }
 
 #intro .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: "century-gothic", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
