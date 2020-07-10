@@ -10,7 +10,7 @@ if(isset($_POST['email']) && isset($_POST['name']) && isset($_POST['group']) && 
     $_POST = array();
 
     $subject = "Website enquiry from " . $name;
-    $message = $name . " Has submitted their information on the website and have indicated they are a/an " . $group . " Please contact them on - " . $phone . " or via email - " . $from.
+    $message = $name . " Has submitted their information on the website and have indicated they are a/an " . $group . " Please contact them on - " . $phone . " or via email - " . $from;
 
     $headers = "MIME-Version: 1.0\r\n";
     $headers .= "Content-type: text/html\r\n";
