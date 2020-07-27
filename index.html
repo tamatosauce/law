@@ -1311,7 +1311,16 @@
           <h3 style="color: white;">Subscribe to our newsletter to stay up to date with MRT LAW and the latest legal news</h3>
         </div>
         <div class="text-center">
-          <a href="#footer" class="btn-get-started scrollto">SUBSCRIBE TO OUR NEWSLETTER</a>
+          <form action="forms/newsletter.php" method="post" role="form" class="php-email-form">
+            <div class="row" style="padding-bottom: 15px;">
+              <div class="col-lg-4 offset-2" style="padding-top: 30px; margin-top: 11px; margin-left: 137px;">
+                <input type="email" class="form-control" style="background-color: rgb(223, 222, 219);" name="news_email" id="news_email" placeholder="Email" data-rule="news_email" data-msg="Please enter a valid email" />
+              </div>
+              <div class="col-lg-6">
+                <button class="btn-get-started" type="submit">SUBSCRIBE TO OUR NEWSLETTER</button>
+              </div>
+            </div>
+          </form>
         </div>
         <div style="margin-top: 3%";>
           <p style="color: white; font-style: italic; text-align: center;">Please provide your contact details to receive event notifications and / or free newsletters from MRT LAW .Unsubscribing is a simple process of clicking the link provided for this purpose in your
