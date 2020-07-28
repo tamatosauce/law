@@ -13,6 +13,8 @@ body {
   font-style: normal;
   font-weight: 400; 
   color: #444444;
+  overflow-y: scroll;
+overflow-x: hidden;
 }
 
 a {
@@ -958,7 +960,6 @@ section {
   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/services_background.png") top center;
   position: relative;
   background-size: cover;
-  position: relative;
 }
 
 .services .icon-box {
@@ -1371,6 +1372,14 @@ section {
   width: 60px;
   margin-left: 50px;
 }
+
+.team-background {
+  width: 100%;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url("../img/teambackground.jpg") top center;
+  position: relative;
+  background-size: cover;
+}
+
 
 /*--------------------------------------------------------------
 # Pricing
@@ -2182,4 +2191,62 @@ text-transform: none;
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   font-family: 'century-gothic', sans-serif;
+}
+
+#myVideo {
+  position:fixed;
+  z-index: -1;
+  width:100%;     
+  height: auto;
+}
+
+.head-menu {
+  position: relative;
+}
+
+
+
+/* header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+} */
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+.vid-background {
+  width: 100%;
+  position: relative;
+  background-size: cover;
 }
