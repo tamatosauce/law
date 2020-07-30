@@ -8,13 +8,26 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@media screen and (max-width: 1366px){
+   html {
+    zoom: .75;
+   }
+}
+
+@media screen and (max-width: 1600px){
+  html {
+   zoom: .85;
+  }
+}
+
 body {
   font-family: "century-gothic, sans-serif";
   font-style: normal;
   font-weight: 400; 
   color: #444444;
   overflow-y: scroll;
-overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 a {
